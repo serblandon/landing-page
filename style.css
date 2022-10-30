@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.main-view {
+    display: flex;
+}
+
+.imgtxt {
+    display: flex;
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    display: flex;
+}
