@@ -6,10 +6,15 @@ body {
 
 .header {
     display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
 }
 
 .main-view {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgtxt {
@@ -19,12 +24,36 @@ body {
 .quotebox {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .signup {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
     text-decoration: none;
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.subtitle1, .subtitle2, .subtitle3 {
+    font-weight: 900;
+}
+
+.author {
+    font-weight: 900;
 }
