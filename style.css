@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100vh;
+    font-family: cursive;
 }
 
 .header {
@@ -9,6 +11,8 @@ body {
     align-items: center;
     padding: 0 20px;
     justify-content: space-between;
+    background-color: #3A3B3C;
+    height: 62px;
 }
 
 .main-view {
@@ -38,10 +42,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #3A3B3C;
+    color: aliceblue;
+    height: 30px;
+    padding: 7px;
 }
 
 a {
     text-decoration: none;
+    color: aliceblue;
 }
 
 ul {
@@ -56,4 +65,13 @@ ul {
 
 .author {
     font-weight: 900;
+}
+
+.body {
+    
+}
+
+.header > img {
+    width: 50px;
+    height: auto;
 }
