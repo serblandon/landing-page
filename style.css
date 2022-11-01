@@ -12,13 +12,17 @@ body {
     padding: 0 20px;
     justify-content: space-between;
     background-color: #3A3B3C;
-    height: 62px;
+    height: 65px;
+    margin: 0;
 }
 
 .main-view {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 60px;
+    background-color: #1f272a;
+    min-height: 480px;
 }
 
 .imgtxt {
@@ -67,11 +71,31 @@ ul {
     font-weight: 900;
 }
 
-.body {
-    
-}
-
 .header > img {
     width: 50px;
     height: auto;
+    padding-left: 22px;
+}
+
+.description1 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.subtitle1 {
+    color: #c1c8b9;
+    font-size: 48px;
+}
+
+.imageholder > img {
+    max-width: 500px;
+    max-height: auto;
+    min-width: 100px;
+}
+
+.button1 {
+    font-size: 17px;
+    border: none ;
+    background-color: #b7cbc8;
+    color: #1f1e1c;
 }
